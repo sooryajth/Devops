@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          python -m unittest test_file.py  # Replace 'test_file.py' with the name of your test script
+          python -m unittest test_app.py  # Replace 'test_file.py' with the name of your test script
 
   # Optional Deploy Stage (if needed)
   deploy:
